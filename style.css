@@ -27,6 +27,11 @@ body {
 }
 body {
   background-color: var(--clr-Dark-cyan);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 49vw bottom 45vh, left 49vw top 50vh;
 }
 .profile-card {
   background-color: white;
